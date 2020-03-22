@@ -20,6 +20,22 @@ module.exports = {
       },
       {
         test: /\.js$/,
+        exclude: /node_modules/,
+        loader: 'eslint-loader',
+        options: {
+          // eslint options (if necessary)
+        }
+      },
+
+      {
+        enforce: 'pre',
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: 'eslint-loader'
+      },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
         include: path.resolve(__dirname, 'src'),
         loader: 'babel-loader'
       },

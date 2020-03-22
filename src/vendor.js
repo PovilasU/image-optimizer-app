@@ -1,2 +1,2 @@
 //import "bootstrap";//example
-// alert('hi from vendor');
+//alert('hi from vendor');
