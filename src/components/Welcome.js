@@ -1,5 +1,5 @@
 import React from 'react';
 
-export default function Welcome(props) {
-  return <p>React {props.name}</p>;
+export default function Welcome() {
+  return <p>React {this.props.name}</p>;
 }
