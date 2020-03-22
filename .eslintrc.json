@@ -17,5 +17,9 @@
     "ecmaVersion": 2018
   },
   "plugins": ["react"],
-  "rules": { "react/prop-types": 0 }
+  "rules": {
+    "react/prop-types": 0,
+    // disallow overwriting functions written as function declarations (recommended)
+    "no-func-assign": 0
+  }
 }
