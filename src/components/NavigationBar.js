@@ -19,6 +19,12 @@ const NavigationBar = () => {
         <Link style={navStyle} to="/gallery">
           <li>Gallery1</li>
         </Link>
+        <Link style={navStyle} to="/gallery2">
+          <li>Gallery2</li>
+        </Link>
+        <Link style={navStyle} to="/gallery3">
+          <li>Gallery3</li>
+        </Link>
       </ul>
     </nav>
   );
