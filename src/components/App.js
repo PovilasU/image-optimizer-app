@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -27,6 +28,7 @@ class App extends Component {
     );
   }
 }
-var dd = 1;
-console.log(dd);
+
 export default App;
+
+var a = 3;

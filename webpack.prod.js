@@ -34,7 +34,11 @@ module.exports = merge(common, {
       filename: '[name].[contentHash].css'
     }),
     new CleanWebpackPlugin(),
-    new CopyPlugin([{ from: 'src/robots.txt', to: 'robots.txt' }])
+    new CopyPlugin([
+      { from: 'src/robots.txt', to: 'robots.txt' },
+      { from: 'src/styles/skeleton.css', to: 'styles/skeleton.cs' },
+      { from: 'src/styles/normalize.css', to: 'styles/normalize.cs' }
+    ])
   ],
 
   module: {
