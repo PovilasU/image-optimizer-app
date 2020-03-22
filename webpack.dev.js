@@ -15,9 +15,14 @@ module.exports = merge(common, {
     app: './src/index.js'
   },
   devtool: 'cheap-module-eval-source-map',
-  devServer: {
-    contentBase: './dist'
-  },
+  // devServer: {
+  //   contentBase: './dist'
+  // },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './src/template.html'
+    })
+  ],
 
   module: {
     rules: [
