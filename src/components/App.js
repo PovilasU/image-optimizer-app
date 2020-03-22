@@ -1,6 +1,7 @@
 /* eslint-disable no-console */
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import routes from './routes';
 
 import NavigationBar from './NavigationBar.js';
 import Home from './Home.js';
