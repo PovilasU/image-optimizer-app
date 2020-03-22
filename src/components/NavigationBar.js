@@ -8,13 +8,16 @@ const NavigationBar = () => {
 
   return (
     <nav>
-      <h3>Logo</h3>
+      <h3>Image optimizer</h3>
       <ul className="nav-links">
         <Link style={navStyle} to="/home">
           <li>Home</li>
         </Link>
         <Link style={navStyle} to="/about">
           <li>About</li>
+        </Link>
+        <Link style={navStyle} to="/gallery">
+          <li>Gallery1</li>
         </Link>
       </ul>
     </nav>
